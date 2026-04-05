@@ -1,0 +1,191 @@
+# data/webstack.yml - 由 Dashy 配置转换而来
+- taxonomy: 本地
+  icon: ""
+  list:
+    - term: 本地
+      links:
+        - title: syncthing
+          url: http://localhost:9000/
+          logo: http://localhost:9000/assets/img/favicon-default.png
+        - title: syncthing_wsl
+          url: http://localhost:9002/
+          logo: http://localhost:9002/assets/img/favicon-default.png
+        - title: n8n
+          url: http://localhost:9002/
+          logo: http://localhost:9002/favicon.ico
+        - title: dify
+          url: http://localhost/apps
+          logo: http://localhost/favicon.ico
+
+- taxonomy: 常用
+  icon: ""   # 原配置中 icon 为空
+  list:
+    - term: 常用
+      links:
+        - title: git
+          url: https://www.runoob.com/git/git-tutorial.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: docker
+          url: https://www.runoob.com/docker/docker-tutorial.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: yaml
+          url: https://www.runoob.com/w3cnote/yaml-intro.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: linux命令大全
+          url: https://www.runoob.com/linux/linux-command-manual.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: 通义千问
+          url: https://www.tongyi.com/qianwen
+          logo: https://img.alicdn.com/imgextra/i3/O1CN01jbsQk720qFw7f5fA7_!!6000000006900-2-tps-144-144.png
+        - title: deepseek
+          url: https://chat.deepseek.com/
+          logo: https://chat.deepseek.com/favicon.svg
+        - title: kimi
+          url: https://www.kimi.com/
+          logo: https://statics.moonshot.cn/kimi-web-seo/favicon.ico
+        - title: Python3 正则表达式
+          url: https://www.runoob.com/python3/python3-reg-expressions.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: 正则表达式
+          url: https://www.runoob.com/regexp/regexp-tutorial.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: opencv
+          url: https://www.runoob.com/opencv/opencv-tutorial.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: conda
+          url: https://www.runoob.com/python-qt/anaconda-tutorial.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: FastAPI
+          url: https://www.runoob.com/fastapi/fastapi-tutorial.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: flask
+          url: https://www.runoob.com/flask/flask-tutorial.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: path
+          url: https://www.runoob.com/python3/python3-os-path.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: GUI
+          url: https://www.runoob.com/python/python-gui-tkinter.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: cmake
+          url: https://www.runoob.com/cmake/cmake-tutorial.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: ffmpeg
+          url: https://www.ffmpeg.org/documentation.html
+          logo: https://www.ffmpeg.org/favicon.ico
+        - title: Python subprocess 模块
+          url: https://www.runoob.com/python3/python-subprocess.html
+          logo: https://www.runoob.com/favicon.ico
+        - title: Matplotlib
+          url: https://www.runoob.com/matplotlib/matplotlib-tutorial.html
+          logo: https://www.runoob.com/favicon.ico
+
+- taxonomy: intranet 10.147.18.231
+  icon: ""
+  list:
+    - term: intranet 10.147.18.231
+      links:
+        - title: casaos
+          url: http://10.147.18.231/
+          logo: http://10.147.18.231/favicon.ico   # 假设内网有 favicon
+        - title: dashy
+          url: http://10.147.18.231:8080/
+          logo: http://10.147.18.231:8080/favicon.ico
+        - title: syncthing
+          url: http://10.147.18.231:8384/
+          logo: http://10.147.18.231:8384/assets/img/favicon-default.png
+        - title: zerotier
+          url: https://my.zerotier.com/
+          logo: https://my.zerotier.com/favicon.ico
+        - title: ngnix
+          url: http://10.147.18.231:8081
+          logo: https://docs.nginx.com/images/icons/NGINX-Open-Source-product-icon.svg
+- taxonomy: 网站论坛
+  icon: fas fa-code
+  list:
+    - term: 网站论坛
+      links:
+        - title: gitee
+          url: https://gitee.com/
+          logo: https://gitee.com/favicon.ico
+        - title: CSDN
+          url: https://blog.csdn.net/
+          logo: https://blog.csdn.net/favicon.ico
+        - title: 菜鸟教程
+          url: https://www.runoob.com/
+          logo: https://www.runoob.com/favicon.ico
+        - title: 魔搭社区
+          url: https://modelscope.cn/my/mynotebook
+          logo: https://g.alicdn.com/sail-web/maas/2.9.79/favicon/128.ico
+        - title: 百度飞桨
+          url: https://aistudio.baidu.com/overview
+          logo: https://paddlepaddle-org-cn.cdn.bcebos.com/paddle-site-front/static/media/paddlelogo.0b483fa7.png
+        - title: CloudFlare
+          url: https://dash.cloudflare.com/aae9e2266171bc538b58ef2f1f888753/home
+          logo: https://dash.cloudflare.com/favicon.ico
+        - title: ngrok
+          url: https://dashboard.ngrok.com/
+          logo: https://dashboard.ngrok.com/favicon.ico
+
+- taxonomy: 工具
+  icon: ""
+  list:
+    - term: 工具
+      links:
+        - title: Docker Hub
+          url: https://hub.docker.com
+          logo: https://hub.docker.com/favicon.ico
+        - title: GitHub 文件加速
+          url: https://ghproxy.net/
+          logo: https://ghproxy.net/favicon.ico
+        - title: js格式化
+          url: https://www.json.cn/js-format/
+          logo: https://www.json.cn/favicon.ico
+
+- taxonomy: 竞赛资料
+  icon: ""
+  list:
+    - term: 竞赛资料
+      links:
+        - title: 全球校园人工智能算法精英大赛
+          url: https://www.aicomp.cn/
+          logo: https://www.aicomp.cn/favicon.ico
+        - title: 赛曙科技
+          url: http://www.bjsstech.com/
+          logo: http://www.bjsstech.com/favicon.ico
+        - title: EdgeBoard嵌入式AI解决方案
+          url: https://ai.baidu.com/ai-doc/HWCE/nkq9b5ncu
+          logo: https://ai.baidu.com/favicon.ico
+        - title: 北京赛曙科技有限公司/（2023年）智能汽车竞赛-完全模型组-学习资料
+          url: https://gitee.com/bjsstech/sasu-intelligentcar-kits
+          logo: https://gitee.com/favicon.ico
+        - title: ican竞赛练习平台
+          url: https://www.suitanglian.com
+          logo: https://www.suitanglian.com/favicon.ico
+        - title: 赛曙科技2
+          url: https://gitee.com/bjsstech/SASU-IntelligentCar-Match-Kits
+          logo: https://gitee.com/favicon.ico
+        - title: 北通手柄
+          url: https://community.betop-cn.com/#/
+          logo: https://community.betop-cn.com/favicon.ico
+        - title: 2025-AIC-智慧城市无人驾驶算法应用赛
+          url: https://shimo.im/docs/1hXhe9FzipozjCuf/read
+          logo: https://shimo.im/favicon.ico
+
+- taxonomy: ai
+  icon: ""
+  list:
+    - term: ai
+      links:
+        - title: sensevoice
+          url: https://github.com/FunAudioLLM/SenseVoice/blob/main/README_zh.md
+          logo: https://github.com/favicon.ico
+        - title: funasr
+          url: https://github.com/modelscope/FunASR/blob/main/docs/tutorial/README_zh.md
+          logo: https://github.com/favicon.ico
+        - title: sensevoice.cpp
+          url: https://github.com/lovemefan/SenseVoice.cpp
+          logo: https://github.com/favicon.ico
+        - title: sensevoice-gguf
+          url: https://www.modelscope.cn/models/lovemefan/SenseVoiceGGUF
+          logo: https://g.alicdn.com/sail-web/maas/2.9.86/favicon/128.ico
